@@ -20,93 +20,6 @@
 <body>
 <div class="container pt-5" style="max-width:60%">
 
-  <div class="intro">
-<h1>A Study of Chopin Études</h1>
-<p>Études, a French term translating to “studies,” refer to pieces intended to hone various techniques on an instrument. In piano repertoire, Polish composer Frederic Chopin’s études are among the most famous. They are a joy to listen to, a challenge to practice, and a near impossibility to master. Inspired by hours spent listening to and practicing these pieces, I decided to dive even deeper into some elements found in Chopin’s études.
-  </p>
-<p>Chopin’s 27 études are divided into three sets. Opus 10 contains 12 pieces and was published in 1833 when Chopin was only 23 years old. The opus was dedicated to his friend and fellow composer Franz Liszt, whose later “Transcendental Études” also became staples of classical piano repertoire. In 1837, Chopin published his second set of 12 études in Opus 25. Chopin’s last three études, “Trois Nouvelles Études,” were published two years later as part of a larger book titled Méthode des méthodes de piano.
-  </p>
-  </div>
-
-<!--EXAMPLES-->
-  <div class="examples">
-<p>This is a brief rundown of some of the many different musical techniques that appear in Chopin’s études.
-  </p>
-
-<h2>Perfect octaves</h2>
-<p>An octave is an interval between one tone and another with double its frequency. This is equivalent to 12 keys apart (counting both black and white keys) on a piano.
-  </p>
-  <div style="padding-left:25%">
-  <h5>Op. 25 No. 9</h5>
-    <img style="max-width:60%;" src="excerpts/octaves op25no9.png">
-  </div>
-
-<h2>Arpeggios</h2>
-<p>Arpeggios are the notes of a chord played in succession. They can travel across the piano or repeat in a particular space. An arpeggiated chord, also known as a rolled chord, is written with notes stacked on top of each other, but each note is also played in succession.
-  </p>
-<div class="row">
-  <div class="col-12 col-sm-4">
-    <h5>Op. 25 No. 1</h5>
-        <p>Regular arpeggio</p>
-        <img src="excerpts/arpeggio op25no1.png">
-    </div>
-  <div class="col-12 col-sm-4">
-      <h5>Op. 10 No. 1</h5>
-      <p>Traveling arpeggio</p>
-      <img src="excerpts/arpeggio op10no1.png">
-    </div>
-  <div class="col-12 col-sm-4">
-      <h5>Op. 10 No. 11</h5>
-      <p>Arpeggiated chord</p>
-      <img src="excerpts/rolled op10no11.png">
-    </div>
-</div>
-
-<h2 class="pt-3">Chromatic scales</h2>
-<p>Chromatic scales consist of consecutive semitones. On the piano, this means playing every key – both black and white. Some of the ways they appear are as single-note scales, a series of octaves, or as a chromatic melody where the chromatic scale is separated by other notes.
-  </p>
-<div class="row">
-  <div class="col-12 col-sm-4">
-        <h5>Op. 10 No. 2</h5>
-        <p>Single notes</p>
-        <img src="excerpts/chromatic op10no2.png">
-    </div>
-  <div class="col-12 col-sm-4">
-        <h5>Op. 25 No. 10</h5>
-        <p>Chromatic octaves</p>
-        <img src="excerpts/chromatic op25no10.png">
-    </div>
-  <div class="col-12 col-sm-4">
-        <h5>Op. 25 No. 11</h5>
-        <p>Alternating notes</p>
-        <img src="excerpts/chromatic op25no11.png">
-    </div>
-</div>
-
-<h2 class="pt-3">Shifting intervals</h2>
-<p>Shifting intervals are two notes played simultaneously. The space between the two notes can be constant or varying, and the intervals themselves can appear consecutively or with single notes between intervals of varying sizes.
-  </p>
-<div class="row">
-  <div class="col-12 col-sm-6">
-        <h5>Op. 25 No. 6</h5>
-        <p>Constant spacing (thirds), played consecutively</p>
-        <img src="excerpts/intervals op25no6.png">
-    </div>
-  <div class="col-12 col-sm-6">
-        <h5>Op. 10 No. 10</h5>
-        <p>Varied spacing, played alternately</p>
-        <img src="excerpts/intervals op10no10.png">
-    </div>
-</div>
-
-<h2 class="pt-3">Staccato</h2>
-<p>Staccato, denoted by a dot above or under a note, indicates that the note should be played for a shorter duration of time — that the playing finger should not rest on the key.
-  </p>
-  <div style="padding-left:25%">
-  <h5>Op. 10 No. 10</h5>
-  <img style="max-width:60%" src="excerpts/staccato op10no9.png">
-</div>
-
 <!-- By opus -->
 <p>Now that we’re done with that quick music theory lesson, let’s quantify some of their appearances in the études. Please note that this data was manually collected and is only intended to highlight some of a piece’s prominent techniques, rather than capture every intricacy. For example, two arpeggiated chords appear at the end of Op. 25 No. 4, but the piece is not counted as containing arpeggios because they are not a defining feature of the étude.
   </p>
@@ -117,444 +30,18 @@
 <p>Despite being written after Opus 25, trois nouvelles études bears more resemblance to Opus 10 with its arpeggios and octaves. But the use of shifting intervals that Chopin explored in Opus 25 can still be seen in these pieces.
   </p>
 
-    <div style="text-align: center">
-<svg width="500" height="300" id="by_opus"></svg>
+    <div width="700" height="500" style="text-align: center">
+<svg id="by_opus"></svg>
     </div>
 
 <!-- By hand -->
 <p>Another way to look at these techniques is whether Chopin used them in only the left or right hands, or both.  Arpeggios and octaves appear more in the left hand than in the right. Chromatic scales and shifting intervals are seldom played by only the left hand and staccato is never prominently used in the left hand.
   </p>
 
-      <div style="text-align: center">
-<svg width="500" height="300" id="byhand"></svg>
+      <div width="500" height="300" style="text-align: center">
+<svg viewBox="0 0 300 150" id="byhand"></svg>
     </div>
 
-<!-- Techniques deep dive -->
-<p>The following table provides a deeper look at the techniques that are used in each étude. Please note that it is subjective and only intended to highlight some of a piece’s prominent techniques, rather than capture every intricacy. For example, arpeggios are not marked for Op. 25 No. 4, because only two arpeggiated chords appear at the end of the piece. Similarly, the chart only marks octaves in the left hand in Op. 10 No. 5 and 6 because they predominantly occur there, even though there are a few octaves in the right hand as well.
-  </p>
-
-<p><b>How to read the table:</b> The treble clef usually indicates the right hand in piano, while the bass clef indicates the left hand. Accordingly, in Opus 10 No. 12, a treble clef symbol underneath “Octaves” and a bass clef symbol underneath “Arpeggios” indicates that the left hand in the piece contains octaves while the right hand plays arpeggios.
-  </p>
-
-<table style="width:100%">
-  <tr>
-    <th>Étude</th>
-    <th>Arpeggio</th>
-    <th>Chromatic</th>
-    <th>Octaves</th>
-    <th>Shifting intervals</th>
-    <th>Staccato</th>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 1</td>
-    <!-- Arpeggio -->
-    <td>
-      <span
-        class="iconify"
-        data-icon="mdi:music-clef-treble"
-        style="color: #2977B4;"
-        data-width="20"
-        data-height="20"
-      ></span>
-    </td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 2</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td>
-      <span
-        class="iconify"
-        data-icon="mdi:music-clef-bass"
-        style="color: #2977B4;"
-        data-width="20"
-        data-height="20"
-      ></span>
-    </td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 3</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td>
-      <span
-        class="iconify"
-        data-icon="mdi:music-clef-treble"
-        style="color: #2977B4;"
-        data-width="20"
-        data-height="20"
-      ></span
-      ><span
-        class="iconify"
-        data-icon="mdi:music-clef-bass"
-        style="color: #2977B4;"
-        data-width="20"
-        data-height="20"
-      ></span>
-    </td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 4</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 5</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 6</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 7</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 8</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 9</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 10</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 11</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 10 No. 12</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #2977B4;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 1</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 2</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 3</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 4</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 5</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 6</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 7</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 8</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 9</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 10</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 11</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Op. 25 No. 12</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #57BFD0;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #57BFD0;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Trois Nouvelles No. 1</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-    <!-- Octaves -->
-    <td></td>
-    <!-- Shifting -->
-    <td></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Trois Nouvelles No. 2</td>
-    <!-- Arpeggio -->
-    <td><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Trois Nouvelles No. 3</td>
-    <!-- Arpeggio -->
-    <td></td>
-    <!-- Chromatic -->
-    <td></td>
-    <!-- Octaves -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #98DF8A;" data-width="20" data-height="20"></span><span class="iconify" data-icon="mdi:music-clef-bass" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-    <!-- Shifting -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-    <!-- Staccato -->
-    <td><span class="iconify" data-icon="mdi:music-clef-treble" style="color: #98DF8A;" data-width="20" data-height="20"></span></td>
-  </tr>
-</table>
 
 <!-- Conclusion -->
   <div class="py-3">
@@ -578,6 +65,7 @@ To learn more, visit <a href="https://www.ourchopin.com/analysis/étude.html">Ch
 <script>
 
 // SECOND CHART BY HAND
+  
     var byhand = [
       {
         Technique: "Arpeggio",
@@ -618,14 +106,13 @@ To learn more, visit <a href="https://www.ourchopin.com/analysis/étude.html">Ch
     var container = d3.select("#byhand"),
       width = 500,
       height = 300,
-      margin = { top: 30, right: 20, bottom: 30, left: 50 },
+      margin = { top: 30, right: 20, bottom: 30, left: 20 },
       barPadding = 0.2,
       axisTicks = { qty: 5, outerSize: 0};
 
     var svg = container
       .append("svg")
-      .attr("width", width)
-      .attr("height", height)
+      .attr("viewBox", `0 0 500 300`)
       .append("g")
       .attr("transform", `translate(${margin.left},${margin.top})`);
 
@@ -716,8 +203,6 @@ To learn more, visit <a href="https://www.ourchopin.com/analysis/étude.html">Ch
       .attr("class", "y axis")
       .call(yAxis);
 
- var SVG = d3.select("#byhand")
-
 // create a list of keys
 var keys = ["Left", "Right", "Both"]
 
@@ -726,6 +211,7 @@ var color = d3.scaleOrdinal()
   .domain(keys)
   .range(["#086375","#1DD3B0","#AFFC41"]);
 
+ var SVG = d3.select("#byhand").attr("viewBox", `0 0 500 300`)
 
 // Add one dot in the legend for each name.
 var size = 20
@@ -733,8 +219,8 @@ SVG.selectAll("mydots")
   .data(keys)
   .enter()
   .append("rect")
-    .attr("x", 400)
-    .attr("y", function(d,i){ return 50 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
+    .attr("x", 420)
+    .attr("y", function(d,i){ return 20 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
     .attr("width", size)
     .attr("height", size)
     .style("fill", function(d){ return color(d)})
@@ -744,12 +230,12 @@ SVG.selectAll("mylabels")
   .data(keys)
   .enter()
   .append("text")
-    .attr("x", 400 + size*1.2)
-    .attr("y", function(d,i){ return 50 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
+    .attr("x", 420 + size*1.2)
+    .attr("y", function(d,i){ return 20 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
     .style("fill", "black")
     .text(function(d){ return d})
     .attr("font-family", "sans-serif")
-    .attr("font-size", 10)
+    .attr("font-size", 8)
     .attr("text-anchor", "left")
     .style("alignment-baseline", "middle")
 
@@ -757,9 +243,11 @@ SVG.selectAll("mylabels")
 
   var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 30, left: 120},
-    width = +svg.attr("width") - margin.left - margin.right,
-    height = +svg.attr("height") - margin.top - margin.bottom,
-    g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    // width = 500
+    // height = 300
+    g = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")      
+    ;
 
 var y = d3.scaleBand()			// x = d3.scaleBand()
     .rangeRound([0, height])	// .rangeRound([0, width])
@@ -818,6 +306,7 @@ d3.csv("byopus.csv", function(d, i, columns) {
 	    .attr("transform", "translate("+ (-width) +",-10)");   	// Newline
 
 var SVG = d3.select("#by_opus")
+.attr("viewBox", `0 0 700 350`)
 
 var keys = ["Opus 10", "Opus 25", "Trois Nouvelles"]
 
@@ -832,7 +321,7 @@ SVG.selectAll("mydots")
   .data(keys)
   .enter()
   .append("rect")
-    .attr("x", 400)
+    .attr("x", 580)
     .attr("y", function(d,i){ return 190 + i*(size+5)}) // 100 is where the first dot appears. 25 is the distance between dots
     .attr("width", size)
     .attr("height", size)
@@ -843,7 +332,7 @@ SVG.selectAll("mylabels")
   .data(keys)
   .enter()
   .append("text")
-    .attr("x", 400 + size*1.2)
+    .attr("x", 580 + size*1.2)
     .attr("y", function(d,i){ return 190 + i*(size+5) + (size/2)}) // 100 is where the first dot appears. 25 is the distance between dots
     .style("fill", "black")
     .text(function(d){ return d})
